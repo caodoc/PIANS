@@ -17,4 +17,7 @@
 
 <p align="left">
     <img src="https://img.shields.io/github/last-commit/caodoc/PIANS?style=for-the-badge">
+    <img src="https://img.shields.io/github/commit-activity/m/caodoc/PIANS?style=for-the-badge">
+    <img src="https://img.shields.io/github/stars/caodoc/PIANS?style=for-the-badge">
+    <img src="https://img.shields.io/github/repo-size/caodoc/PIANS?style=for-the-badge">
 </p>
