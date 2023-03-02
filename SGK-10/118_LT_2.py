@@ -3,7 +3,7 @@ n = int(input())
 a = []
 
 for i in range(n):
-    x = float(input())
+    x = input()
     a.append(x)
 
 if (n % 2 == 0):
