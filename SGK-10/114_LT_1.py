@@ -3,7 +3,7 @@ n = int(input())
 a = []
 
 for i in range(n):
-    x =input()
+    x = input()
     a.append(x)
 
 print(a)
