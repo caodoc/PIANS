@@ -5,7 +5,8 @@ res = 0
 s = "Huong"
 
 for i in range(n):
-    ar.append(input())
+    x = input()
+    ar.append(x)
 
 for i in range(n):
     if s in ar[i]:
