@@ -1,10 +1,13 @@
 def prime(x):
-    cnt = 0
     for i in range(1,x + 1):
         if (n % i == 0):
-            cnt += 1
-    return cnt
+            temp = 0
+            for j in range(1,i + 1):
+                if i % j == 0:
+                    temp += 1
+            if temp == 2:
+                print(i, end = " ")
 
 n = int(input())
 
-print(prime(n))
+prime(n)
