@@ -13,7 +13,7 @@ for i in s:
     if (i == 'N'):
         n += 1
 
-while (t > 0 and e > 0 and n > 0):
+while (t >= 1 and e >=2  and n >= 1):
     res += 1
     t -= 1
     e -= 2
