@@ -1,5 +1,8 @@
 def power(a,b,c):
-    return pow(a + b, c)
+    res = 1
+    for i in range(c):
+        res *= (a + b)
+    return res
 
 s = input()
 r = s.split()
