@@ -1,5 +1,5 @@
-import urllib.request
 import os
+import urllib.request
 
 def Get(path, container):
     with open(path, "r") as file:
@@ -18,8 +18,9 @@ def Get(path, container):
             print(f"Failed to download: {link}")
             print(f"Error: {str(e)}")
 
-file = "1659341999.txt"
-
-folder = "./Hina"
+#Path Of Links File Here!
+file = ""
+#Path Of Folder For Downloads Here!
+folder = ""
 
 Get(file, folder)
